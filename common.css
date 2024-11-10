@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.head {
+    display:flex;
+    justify-content:space-between;
+    position:fixed;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    top:0;
+    left:2%;
+    width:96%;
+    height:80px;
+    color:white;
+    background-color:black;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px 50px;
+}
+
+.select {
+    display: flex;
+    justify-content: space-around;
+    width: 350;
+    height: 80px;
+}
+
+.link {
+    margin:auto 0px; 
+}
+
+.title a {
+    color:white;
+    text-decoration:none;
+}
+
+.link a {
+    color:white;
+    text-decoration:none;
+}
+
+.link a:hover {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.container {
+    margin:0 auto;
+    width:850px;
+}
+
+.blank {
+    height:200px;
+}
+
+h2 {
+    border-radius:10px;
+    width:200px;
+    text-align:center;
+    color:white;
+}
+
+#introduce {
+    scroll-margin-top: 100px;
+    background-color: rgb(162, 162, 162);
+    /*background-color: #4141DF;*/
+}
+
+.introduce {
+    display:flex;
+    margin:50px auto;
+    width:700px;
+}
+
+.icon{
+    margin: 0px 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:gray;
+}
+
+.introduce .content{
+    margin: auto 20px;
+}
+
+#skills {
+    scroll-margin-top: 100px;
+    background-color: rgb(162, 162, 162);
+    /*background-color: #DFD741;*/
+}
+
+.skills {
+    margin:50px auto;
+    width:700px;
+}
+
+.skills_box{
+    display:flex;
+    margin: 20px 0px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height:80px;
+    padding:10px;
+}
+
+.skills img {
+    margin:auto 0px;
+    width:50px;
+    height:50px;
+}
+
+.skills .content {
+    width:614px;
+    height:80px;
+}
+
+.java {
+    border:8px inset lime;
+}
+
+.python {
+    border:8px inset skyblue;
+}
+
+.cpp {
+    border:8px inset yellow;
+}
+
+.web {
+    border:8px inset pink;
+}
+
+.skills .text {
+    margin:0px auto;
+    width:600;
+    font-size: 14px;
+}
+
+#history {
+    scroll-margin-top: 100px;
+    background-color: rgb(162, 162, 162);
+    /*background-color: #DF4141;*/
+}
+
+.history {
+    position:relative;
+    margin:50px auto;
+    width:700px;
+}
+
+.line {
+    position:absolute;
+    top:0px;
+    left:12px;
+    height:100%;
+    width:6px;
+    border-radius:2px;
+    background-color:lime;
+}
+
+.history_box {
+    display:flex;
+    margin:10px 0px;
+    height:30px;
+}
+
+.cercle {
+    margin:9px;
+    width:12px;
+    height:12px;
+    border-radius:10px;
+    background-color:lime;
+}
+
+.history_box .content {
+    margin:auto 0px;
+    width:670px;
+}
