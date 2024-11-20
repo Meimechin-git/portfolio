@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #f4f4f4;
+}
+
 .head {
     display:flex;
     justify-content:space-between;
@@ -14,6 +18,7 @@ html {
     height:80px;
     color:white;
     background-color:black;
+    z-index: 10;
 }
 
 h1 {
@@ -43,17 +48,18 @@ h1 {
 }
 
 .link a:hover {
-    font-size: 17px;
-    text-decoration: underline;
+    color:#aaaaaa;
 }
 
 .container {
-    margin:0 auto;
-    width:850px;
+    margin:0px auto;
+    padding:40px;
+    width:810px;
+    background-color: white;
 }
 
 .blank {
-    height:200px;
+    height:100px;
 }
 
 h2 {
@@ -72,7 +78,9 @@ h2 {
 .introduce {
     display:flex;
     margin:50px auto;
-    width:700px;
+    padding: 25px;
+    width:650px;
+    box-shadow: 3px 3px 3px #eeeeee;
 }
 
 .icon{
@@ -80,6 +88,7 @@ h2 {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    object-fit: cover;
     background-color:gray;
 }
 
@@ -90,7 +99,6 @@ h2 {
 #skills {
     scroll-margin-top: 100px;
     background-color: rgb(162, 162, 162);
-    /*background-color: #DFD741;*/
 }
 
 .skills {
@@ -105,6 +113,7 @@ h2 {
     border-bottom-right-radius: 10px;
     height:80px;
     padding:10px;
+    box-shadow: 3px 3px 3px #eeeeee;
 }
 
 .skills img {
@@ -143,19 +152,20 @@ h2 {
 #history {
     scroll-margin-top: 100px;
     background-color: rgb(162, 162, 162);
-    /*background-color: #DF4141;*/
 }
 
 .history {
     position:relative;
     margin:50px auto;
-    width:700px;
+    padding: 25px;
+    width: 650px;
+    box-shadow: 3px 3px 3px #eeeeee;
 }
 
 .line {
     position:absolute;
     top:0px;
-    left:12px;
+    left:37px;
     height:100%;
     width:6px;
     border-radius:2px;
@@ -179,4 +189,72 @@ h2 {
 .history_box .content {
     margin:auto 0px;
     width:670px;
+}
+
+#works {
+    scroll-margin-top: 100px;
+    background-color: rgb(162, 162, 162);
+}
+
+.works {
+    margin: 50px auto;
+    width: 700px;
+}
+
+.work-box {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #eeeeee;
+    color:black;
+    text-decoration: none;
+}
+
+.work-box:hover {
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+
+.work-icon {
+    object-fit: contain;
+    width:200px;
+    padding:10px;
+}
+
+
+.marked {
+    margin:0px 4px;
+    padding:2px 4px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #dddddd;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.default- {
+    color:#aaaaaa;
+}
+
+.link- {
+    color:darkslateblue;
+}
+
+.html- {
+    color:orange;
+}
+
+.css- {
+    color:darkcyan;
+}
+
+.js- {
+    color:darksalmon;
+}
+
+.python- {
+    color:darkblue;
+}
+
+.java- {
+    color:green;
 }
