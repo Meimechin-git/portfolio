@@ -83,7 +83,7 @@ h2 {
     box-shadow: 3px 3px 3px #eeeeee;
 }
 
-.icon{
+.icon {
     margin: 0px 20px;
     width: 100px;
     height: 100px;
@@ -106,7 +106,7 @@ h2 {
     width:700px;
 }
 
-.skills_box{
+.skills_box {
     display:flex;
     margin: 20px 0px;
     border-top-left-radius: 10px;
@@ -194,6 +194,18 @@ h2 {
 #works {
     scroll-margin-top: 100px;
     background-color: rgb(162, 162, 162);
+}
+
+#work1 {
+    scroll-margin-top: 100px;
+}
+
+#work2 {
+    scroll-margin-top: 100px;
+}
+
+#work3 {
+    scroll-margin-top: 100px;
 }
 
 .works {
